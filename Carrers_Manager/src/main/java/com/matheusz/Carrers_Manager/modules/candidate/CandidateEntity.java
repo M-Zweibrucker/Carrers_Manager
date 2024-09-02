@@ -24,7 +24,7 @@ public class CandidateEntity {
     private String name;
 
     @NotBlank
-    @Pattern(regexp = "\\S+", message = "The user name field must not have blank spaces")
+    @Pattern(regexp = "\\S+", message = "The username field must not have blank spaces")
     private String username;
 
     @Email(message = "The email is not valid")
